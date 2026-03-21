@@ -1,0 +1,119 @@
+##
+This is a multiline comment
+and below is a model.
+##
+mod student [
+    id: str.
+    name: str.
+    age: int.
+    block: str.
+    gpa: float.
+]
+
+
+# Batch update feature for the model
+fun demo_five() -> void [
+    # Initializing a variable of type `student` (from model)
+    rosales: student = ["2022", "acelle", 18, "3-5", 1.00].
+
+    # Batch updating some variables on studet `rosales`
+    rosales.[age, block] = [19, "3-1N"].
+]
+
+
+fun demo_four() -> void [
+    ##
+    This is a pattern matching demo.
+    The rules here are simple:
+    [1] If you defined a variable beside 'when',
+    that means you're telling the language that you want
+    pattern matching (like a switch statement, matching for equal).
+    [2] But if you didn't define a variable baside the 'when' keyword,
+    that means you're telling the language that you want to define 
+    your own, complex logical expressions (and not just regular equal matching)
+    ##
+    
+    # To demonstrate [1]...
+    my_value: int = 8.
+
+    when my_value [
+        == 2 :: print("Your value is 2.").
+        == 4 :: print("Your value is 4.").
+        == 6 :: print("Your value is 6.").
+        == 8 :: print("Your value is 8.").
+        _ :: print("Your value is not in 2, 4, 6, or 8").
+    ]
+]
+
+
+# Function to demonstrate different operators
+fun demo_three() -> float [
+    # Evaluate the entire expression, and then negate the boolean result
+    return !((5.0 - 1.0 * (8.0 / 4.0)) > (10.0 % 3.0 ** 6.0)).
+]
+
+
+# FizzBuzz and Junction implementation in Square
+fun demo_two() -> void [
+    # Implement FizzBuzz
+    loop i: int in range(0, 20, i++) [
+        when [
+            i % 3 == 0 && i % 5 == 0 :: [
+                print("FizzBuzz").
+            ]
+            i % 3 == 0 :: [
+                print("Fizz").
+            ]
+            i % 5 == 0 :: [
+                print("Buzz").
+            ]
+        ]
+    ]
+
+    # Junction implementation
+    my_course: str = "CS".
+    
+    when [
+        # When the course is an IT-related course
+        my_course == "CS" | "IT" | "CE" :: [
+            print("Good day, tech student!").
+        ]
+        # Default case
+        _ :: [
+            print("How are you doing?").
+        ]
+    ]
+]
+
+
+# A function to showcase a loop with a conditional
+fun demo_one() -> void [
+    counter: int = 5.
+    loop [
+        print("Hello from the square team!").
+        when [
+            counter == 5 :: exit.
+        ]
+    ]
+]
+
+
+# Main driver 
+fun main() -> void [
+    print("This is a sample program for Square.").
+
+    # Function call for loop demo
+    demo_one().
+
+    # Function call for conditional demo
+    demo_two().
+
+    # Function call for operator demo
+    demo_three().
+
+    # Function call for a pattern matching demo
+    demo_four().
+
+    # Function call for model demo
+    demo_five().
+] 
