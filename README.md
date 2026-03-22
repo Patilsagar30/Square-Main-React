@@ -51,9 +51,6 @@ The programming language draws inspiration from C for its robust static typing a
   <li>
     <a href="#contributors">Contributors</a>
   </li>
-  <li>
-    <a href="#license">License</a>
-  </li>
 </ol> 
 
 <!-- FEATURES -->
@@ -172,86 +169,7 @@ mod user [
 ![image](https://github.com/user-attachments/assets/6e69c608-13c1-435f-b3d3-ea440a11d377)
 
 
-<!-- CONTRIBUTOR'S TABLE -->
-## Contributors
-<table style="width: 100%; text-align: center;">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Avatar</th>
-        <th>GitHub</th>
-        <th>Contributions</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Acelle Krislette Rosales</td>
-        <td><img src="https://avatars.githubusercontent.com/u/143507354?v=4" alt="" style="border-radius: 50%; width: 50px;"></td>
-        <td><a href="https://github.com/krislette">krislette</a></td>
-        <td>
-          <b>Lead Developer:</b> Acelle oversaw the entire development process, created the lexer, and managed the tokenization process, converting features into tokens. 
-          Acelle built the backbone of the backend, set up the server, and deployed both the frontend and backend. 
-        </td>
-      </tr>
-      <tr>
-        <td>Regina Bonifacio</td>
-        <td><img src="https://avatars.githubusercontent.com/u/116869096?s=400&u=43146b191775802d9ab2f0f721b452ffc52c9efa&v=4" alt="" style="border-radius: 50%; width: 50px;"></td>
-        <td><a href="https://github.com/feiryrej">feiryrej</a></td>
-        <td>
-          <b>Frontend Developer:</b> Regina is responsible for making the landing page and overall UI refinement across all pages including the terminal and lexeme table. She also name the language. 
-        </td>
-      </tr>
-      <tr>
-        <td>Henry James Carlos</td>
-        <td><img src="https://avatars.githubusercontent.com/u/71052354?v=4" alt="" style="border-radius: 50%; width: 50px;"></td>
-        <td><a href="https://github.com/hjcarlos">hjcarlos</a></td>
-        <td>
-          <b>Frontend Developer:</b> Henry is responsible for the interface displaying generated lexemes in the terminal page  and worked on the syntax for operation symbols and 
-          for-loop statements in the Square programming language.
-        </td>
-      </tr>
-      <tr>
-        <td>Syruz Ken Domingo</td>
-        <td><img src="https://avatars.githubusercontent.com/u/141235021?v=4" alt="" style="border-radius: 50%; width: 50px;"></td>
-        <td><a href="https://github.com/sykeruzn">sykeruzn</a></td>
-        <td>
-          <b>Technical Writer:</b> Syke is assigned to modify the changes in the programming language documentation, proofread, and finalize the content in all sections.
-        </td>
-      </tr>
-      <tr>
-        <td>Fervicmar Lagman</td>
-        <td><img src="https://avatars.githubusercontent.com/u/116869089?v=4" alt="" style="border-radius: 50%; width: 50px;"></td>
-        <td><a href="https://github.com/perbik">perbik</a></td>
-        <td>
-          <b>Backend Developer:</b> Fervicmar contributes in the development, particularly in defining and implementing the tokenization process by identifying and 
-          categorizing tokens, ensuring accurate lexical analysis.
-        </td>
-      </tr>
-      <tr>
-        <td>Duane Kyros Marzan</td>
-        <td><img src="https://avatars.githubusercontent.com/u/148748082?v=4" alt="" style="border-radius: 50%; width: 50px;"></td>
-        <td><a href="https://github.com/kyrariii">kyrariii</a></td>
-        <td>
-          <b>Technical Writer:</b> Kyros is also assigned to modify the changes in the programming language documentation, proofread, and finalize the content in all sections.
-        </td>
-      </tr>
-      <tr>
-        <td>Hans Christian Queja</td>
-        <td><img src="https://avatars.githubusercontent.com/u/65350664?v=4" alt="" style="border-radius: 50%; width: 50px;"></td>
-        <td><a href="https://github.com/HansQueja">HansQueja</a></td>
-        <td>
-          <b>Backend Developer:</b> Hans is one of the developers responsible in defining and implementing the tokenization process. He also contributes in identifying and 
-          categorizing tokens, standard processes in lexical analysis. He is also responsible for tweaking additional tokens.
-        </td>
-      </tr>
-      <tr>
-        <td>Ylana Ong</td>
-        <td><img src="https://avatars.githubusercontent.com/u/108628237?v=4" alt="" style="border-radius: 50%; width: 50px;"></td>
-        <td><a href="https://github.com/jellym0on">jellym0on</a></td>
-        <td>
-          <b>Frontend Developer:</b> Ylana implemented the frontend editor component for code input and the file upload functionality. 
-        </td>
-      </tr>
+
     </tbody>
   </table>
 </section>
